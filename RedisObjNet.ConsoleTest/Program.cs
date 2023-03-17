@@ -49,5 +49,5 @@ class Device
     [RedisValueAttribute]
     public string Name { get; set; }
     [RedisValueAttribute]
-    public string Battery { get; set; }
+    public int Battery { get; set; }
 }
